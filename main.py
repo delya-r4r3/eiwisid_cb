@@ -3,7 +3,6 @@ from loguru import logger
 from init import bot, dp
 from aiogram import executor, Dispatcher
 from modules import help, info, start
-import aiogram.utils.markdown as fmt
 # set up local pycharm bot token variable
 
 # configure logging
