@@ -25,7 +25,7 @@ async def inform(message: types.Message):
         fmt.text(
             fmt.text("Чат бот для упрощения работы с группами"),
             fmt.text(fmt.hbold("Powered by eiwi")),
-            fmt.text(fmt.pre('est.2021')),
+            fmt.text(fmt.italic('est.2021')),
             sep='\n'
         ), parse_mode='HTML'
     )
