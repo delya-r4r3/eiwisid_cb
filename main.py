@@ -6,7 +6,7 @@ from modules import help, info, start
 # set up local pycharm bot token variable
 
 # configure logging
-logger.info('Init finished! Starting polling...')
+logger.info('Инициализация завершена. Запуская бота')
 
 # initializing whole bot
 if __name__ == '__main__':

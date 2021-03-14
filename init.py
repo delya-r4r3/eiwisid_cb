@@ -7,7 +7,7 @@ bot_token = getenv("BOT_TOKEN")
 if not bot_token:
     exit("Error: no token provided")
 
-logger.info('Welcome to PilotTelegramBot!\nStarting init...')
+logger.info('Привет\nНачинаю инициализацию')
 bot = Bot(token=bot_token)
 dp = Dispatcher(bot)
-logger.info('aiogram init                   [ OK ]')
+logger.info('Запуск aiogram                 [ OK ]')
