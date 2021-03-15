@@ -15,8 +15,8 @@ async def greetings(message: types.Message):
     )
 
 
-@dp.message_handler(commands='text')
+@dp.message_handler()
 async def answ(message: types.Message):
     await message.answer(
-        fmt.text('Напиши', fmt.hbold('/help')), parse_mode="HTML"
+        fmt.text('Напиши', fmt.hbold('/start')), parse_mode="HTML"
     )
