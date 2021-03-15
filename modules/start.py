@@ -13,3 +13,10 @@ async def greetings(message: types.Message):
             sep="\n"
         ), parse_mode="HTML"
     )
+
+
+@dp.message_handler(commands='text')
+async def answ(message: types.Message):
+    await message.answer(
+        fmt.text('Напиши', fmt.hbold('/help')), parse_mode="HTML"
+    )
